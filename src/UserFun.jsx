@@ -1,17 +1,10 @@
-const users = [
-    {
-        ime: 'Branko',
-        prezime: 'Brankovic',
-        dob: 32,
-    },
-    {
-        ime: 'Janko',
-        prezime: 'Janković',
-        dob: 42,
-    },
-    {
-        ime: 'Stanko',
-        prezime: 'Stanković',
-        dob: 52,
-    }
-]
+const UserFun = ({ ime, godine }) => {
+
+    return (
+        <div>
+            <h3>Moje ime je {ime} i  imam {godine} godina.</h3>
+        </div>
+    );
+};
+
+export default UserFun;
